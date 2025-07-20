@@ -35,3 +35,13 @@ print(chai_types[::2])
 #Assigning content to slice 
 chai_types[1:2]=["Oolong"]
 print(chai_types)
+
+chai_copy=chai_types;
+
+#chai_copy=chai_types.copy()
+
+for tea in chai_types:
+    print(tea)
+
+if "herbal" in chai_types:
+    print("Yes it is found")
